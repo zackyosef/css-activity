@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 650px;
+    height: 410px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+@font-face {
+    font-family: 'Gasalt Black';
+    src: url('../fonts/Gasalt-Black.ttf') format('truetype');
+  }
+
+  .profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: center;
+  }
+
+  .social-icon {
+    width: 20px;
+  }
+
+a {
+
+}
